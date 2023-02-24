@@ -1,0 +1,59 @@
+/* Header styles */
+header {
+    background-color: black;
+    color: white;
+    height: 80px;
+    padding: 20px;
+  }
+  
+  /* Navigation menu styles */
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Main content styles */
+  main {
+    background-image: url('space-background.jpg');
+    background-size: cover;
+    min-height: 1000px;
+    padding: 50px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: black;
+    color: white;
+    height: 80px;
+    padding: 20px;
+  }
+  
+  /* Button styles */
+  button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: black;
+    color: white;
+  }
+  
